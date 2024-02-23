@@ -1,20 +1,7 @@
 {
-  "name": "crypto-trading-bot",
-  "version": "0.0.0",
-  "author": "Daniel Espendiller",
-  "bugs": "https://github.com/Haehnchen/crypto-trading-bot/issues",
-  "contributors": [
-    {
-      "email": "daniel@espendiller.net",
-      "name": "Daniel Espendiller",
-      "url": "http://espend.de/"
-    },
-    {
-      "email": "phuc@nguyenminhphuc.com",
-      "name": "Phuc Nguyen Minh",
-      "url": "https://nguyenminhphuc.com/"
-    }
-  ],
+  "name": "cryptobot",
+  "version": "0.0.1",
+  "author": " ",
   "dependencies": {
     "async": "^3.2.4",
     "basic-auth": "^2.0.1",
@@ -81,7 +68,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Haehnchen/crypto-trading-bot.git"
+    "url": "git+ssh://git@github.com:pincince64883736/cryptoBot.git"
   },
   "scripts": {
     "start": "node index.js trade",
@@ -102,5 +89,13 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.7.1"
+  },
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
