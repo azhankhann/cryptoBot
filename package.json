@@ -1,6 +1,6 @@
 {
   "name": "@pincince64883736/cryptobot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": " ",
   "dependencies": {
     "@rendaxia/sdk_swap_core": "^0.0.3",
@@ -74,7 +74,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:pincince64883736/cryptoBot.git"
+    "url": "https://github.com/pincince64883736/cryptoBot.git"
   },
   "scripts": {
     "start": "node index.js trade",
